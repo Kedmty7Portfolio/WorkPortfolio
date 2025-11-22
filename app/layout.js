@@ -26,8 +26,8 @@ const changa = Changa({
 });
 
 export const metadata = {
-  title: "Content Creator Portfolio",
-  description: "Personal Content Creator Portfolio",
+  title: "خدمتي",
+  description: "نماذج معرض أعمال منصة خدتي السعودية",
   icons: [{ rel: "icon", url: "icon.ico" }],
 };
 
