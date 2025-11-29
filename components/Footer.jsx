@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <div
       dir="rtl"
-      className={`w-full h-[250px] p-5  text-white 
+      className={`w-full h-[270px] p-5  text-white 
         bg-[linear-gradient(180deg,rgba(9,86,230,1)_0%,rgba(42,110,235,1)_50%,rgba(109,157,247,1)_100%)]
 
     `}
@@ -51,11 +51,26 @@ export default function Footer() {
         >
           <Image
             src="/salla.svg"
-            alt="whatsapp icon"
+            alt="
+            Salla icon"
             width={30}
             height={30}
           />
           <span dir="ltr">سلة</span>
+        </a>
+
+         <a
+          href="https://x.com/ATS1210867"
+          target="_blank"
+          className={`flex items-center gap-2`}
+        >
+          <Image
+            src="/twitter.svg"
+            alt="twitter icon"
+            width={30}
+            height={30}
+          />
+          <span dir="ltr">تويتر</span>
         </a>
       </div>
     </div>
