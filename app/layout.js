@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono, Share_Tech,Changa } from "next/font/google";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
@@ -39,7 +38,7 @@ export default function RootLayout({ children }) {
       >
         <HeroSection/>
        <MyWorks/>
-         <SpeedInsights />
+        
         {children}
          <Footer/>
       </body>
